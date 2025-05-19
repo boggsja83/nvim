@@ -1,4 +1,4 @@
-print("@nvim/lua/plugins/treesitter.lua | setup|treesitter")
+print("@nvim/lua/plugins/treesitter.lua | init|treesitter")
 local M = {
     "nvim-treesitter/nvim-treesitter",
     build = function()
