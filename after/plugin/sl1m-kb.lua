@@ -28,8 +28,8 @@ vim.keymap.set("n", "<c-w>N", function() print("sl1m - <c-w>N - Vertical split w
 vim.keymap.set("n", "", function() print("sl1m - ") end, { noremap = true, silent = true, desc = "sl1m - " })
 ]]--
 
-vim.keymap.set("n", "<c-s>t", function()
-	print("sl1m - <c-s>t - testin")
-	end,
-	{ noremap = true, silent = true, desc = "sl1m - " })
+--vim.keymap.set("n", "<c-s>t", function()
+--	print("sl1m - <c-s>t - testin")
+--	end,
+--	{ noremap = true, silent = true, desc = "sl1m - " })
 

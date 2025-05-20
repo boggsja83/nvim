@@ -1,4 +1,4 @@
-print("@nvim/after/plugins/smear-cursor.lua | config|smear-cursor")
+print("@nvim/after/plugin/smear-cursor.lua | config|smear-cursor")
 --[[==============================================================================
 2. Configuration                                  *smear-cursor-configuration*
 

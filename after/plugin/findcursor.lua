@@ -1,7 +1,7 @@
 print("@nvim/after/plugin/fundcursor.lua | keybinds|findcursor")
 
 local arg1 = "#FFFF00"
-local arg2 = "0000"
+local arg2 = "1000"
 --vim.cmd(string.format("FindCursor '%s' '%s'", vim.fn.escape(arg1, "'"), vim.fn.escape(arg2, "'")))
 
 
