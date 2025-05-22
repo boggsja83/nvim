@@ -7,18 +7,32 @@ return {
 	    -- Load luvit types when the `vim.uv` word is found
 	    { path = "${3rd}/luv/library", words = { "vim%.uv" } },
 	},
-	sources = {
+	--sources = {
 	    -- add lazydev to your completion providers		
-	    default = { "lazydev", "lsp", "path", "snippets", "buffer" },
-	    providers = {
-		lazydev = {
-		    name = "LazyDev",
-		    module = "lazydev.integrations.blink",
+	    --default = { "lazydev", "lsp", "path", "snippets", "buffer" },
+	    --providers = {
+		--lazydev = {
+		    --name = "LazyDev",
+		    --module = "lazydev.integrations.blink",
 		    -- make lazydev completions top priority (see `:h blink.cmp`)
-		    score_offset = 100,
-		},
-	    },
-	},
+		    --score_offset = 100,
+		--},
+	    --},
+	--},
+
+sources = {
+        -- add lazydev to your completion providers
+        default = { "lazydev", "lsp", "path", "snippets", "buffer" },
+        providers = {
+          lazydev = {
+            name = "LazyDev",
+            module = "lazydev.integrations.blink",
+            -- make lazydev completions top priority (see `:h blink.cmp`)
+            score_offset = 100,
+          },
+        },
+}, 
+
     },
 }
 --  },

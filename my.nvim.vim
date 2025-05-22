@@ -26,4 +26,7 @@
 21.	nvim-notify	    cool popups for notifications
 22.	noice		    replaces ui for messages, cmdline, and popupmenu
 23.	blink.cmp	    completion engine with built-in fzf
+24.	snacks		    collection of QoL improvements
+25.	lualine		    snazzy status line
+26.	bufferline	    snazzy buffer line
 

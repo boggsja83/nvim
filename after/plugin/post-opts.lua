@@ -1,6 +1,6 @@
-print("[sl1m] setting post-opts")
-vim.notify = require("notify")
-vim.notify("super duper message")
+--print("[sl1m] setting post-opts")
+--vim.notify = require("notify")
+--vim.notify("hola sl1m")
 --require("tokyonight").setup({
   -- use the night style
 --  style = "day",

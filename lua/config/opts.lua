@@ -1,5 +1,5 @@
 --sL1m's nvim options
-print("[sl1m] setting opts")
+--print("[sl1m] setting opts")
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
