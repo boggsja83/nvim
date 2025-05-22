@@ -29,4 +29,6 @@
 24.	snacks		    collection of QoL improvements
 25.	lualine		    snazzy status line
 26.	bufferline	    snazzy buffer line
+27.	trouble		    visual pop up showing diagnostics, references,
+			    telescope results, quickfix and location lists
 
