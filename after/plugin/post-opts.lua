@@ -1,18 +1,7 @@
---print("[sl1m] setting post-opts")
---vim.notify = require("notify")
---vim.notify("hola sl1m")
---require("tokyonight").setup({
-  -- use the night style
---  style = "day",
-  -- disable italic for functions
---  styles = {
---    functions = {}
---  },
-  -- Change the "hint" color to the "orange" color, and make the "error" color 
-  -- bright red
---  on_colors = function(colors)
---    colors.hint = colors.orange
---    colors.error = "#ff0000"
---  end
---})
---vim.cmd.colorscheme = "tokyonight"
+--keymaps
+
+vim.keymap.set('n', '<leader>e', function() vim.notify('sl1m - <leader>e - Snacks Explorer') vim.cmd('lua Snacks.picker.explorer()') end, { noremap = true, silent = true, desc = 'sl1m - Snacks Explorer'})
+
+vim.keymap.set("n", "<c-w>N", function() vim.notify("sl1m - <c-w>N - Vertical Split with New Buffer") vim.cmd.vnew() end, { noremap = true, silent = true, desc = "sl1m - Vertical split with new buffer" })
+
+
